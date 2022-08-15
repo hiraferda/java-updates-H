@@ -1,4 +1,4 @@
-package com.HW;
+package com.cydeo.HW;
 
 public class SwappingArray<T> {
 
