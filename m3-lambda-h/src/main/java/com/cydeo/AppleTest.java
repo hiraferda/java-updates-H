@@ -11,4 +11,15 @@ public class AppleTest {
         inventory.add(new Apple(200,Color.GREEN));
         inventory.add(new Apple(50,Color.RED));
     }
+
+    private static List<Apple> filterApples(List<Apple> inventory, ApplePredicate obj){
+        List<Apple> result = new ArrayList<>();
+
+        for (Apple apple : inventory) {
+            if(obj.test(apple)){
+                result.add(apple);
+            }
+        }
+        return result;
+    }
 }
