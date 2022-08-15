@@ -32,7 +32,7 @@ public class Main {
                 break;
         }
 
-        calculate(3.4,78,MathOperations.DIVIDE);
+        calculate(3.4,78,Operations.DIVIDE);
 
         System.out.println("How to retrieve the constant value?");
 
@@ -42,7 +42,7 @@ public class Main {
         System.out.println(Currency.NICKLE.getValue());
 
     }
-    private static void calculate(double x, double y, MathOperations operations){
+    private static void calculate(double x, double y, Operations operations){
         switch (operations){
             case MULTIPLY:
                 System.out.println(x*x);

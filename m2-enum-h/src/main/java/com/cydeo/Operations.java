@@ -1,8 +1,8 @@
 package com.cydeo;
 
-public enum MathOperations {
+public enum Operations {
     MULTIPLY,DIVIDE,SUBTRACT,ADD;
-    MathOperations() {
+    Operations() {
         System.out.println("Constructor");
     }
 }
