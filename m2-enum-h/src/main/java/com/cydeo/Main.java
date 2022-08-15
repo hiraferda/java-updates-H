@@ -34,6 +34,13 @@ public class Main {
 
         calculate(3.4,78,MathOperations.DIVIDE);
 
+        System.out.println("How to retrieve the constant value?");
+
+        System.out.println(Currency.PENNY.getValue());
+        System.out.println(Currency.DIME.getValue());
+        System.out.println(Currency.QUARTER.getValue());
+        System.out.println(Currency.NICKLE.getValue());
+
     }
     private static void calculate(double x, double y, MathOperations operations){
         switch (operations){
