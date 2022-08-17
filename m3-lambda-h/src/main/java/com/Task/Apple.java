@@ -2,19 +2,19 @@ package com.Task;
 
 public class Apple {
 
-    private AppleCriteriaWeight weight;
+    private int weight;
     private AppleCriteriaColor color;
 
-    public Apple(AppleCriteriaWeight weight, AppleCriteriaColor color) {
+    public Apple(int weight, AppleCriteriaColor color) {
         this.weight = weight;
         this.color = color;
     }
 
-    public AppleCriteriaWeight getWeight() {
+    public int getWeight() {
         return weight;
     }
 
-    public void setWeight(AppleCriteriaWeight weight) {
+    public void setWeight(int weight) {
         this.weight = weight;
     }
 

@@ -1,5 +1,4 @@
 package com.Task;
-
 public class Color implements AppleCriteria{
     @Override
     public String test(Apple apple) {
