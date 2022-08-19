@@ -11,6 +11,8 @@
     <modules>
         <module>m3-lambda-h</module>
         <module>m4-double-colon-operators</module>
+        <module>m5-comparator-interface</module>
+        <module>m6-stream</module>
     </modules>
 
     <properties>
