@@ -9,7 +9,7 @@ import static java.lang.System.out;
 
 public class StreamOperations {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(1,2,3,4);
+        List<Integer> list = Arrays.asList(1,2,3,4, 5,2);
 //        list.forEach(System.out::println);
 
 
@@ -43,5 +43,11 @@ public class StreamOperations {
                 .filter(i -> i%3==0)
                 .forEach(System.out::println);
 
+        System.out.println("---------------------------------------");
+
+        list.stream()
+                .map(n -> n+1)
+                .skip(2)
+                .forEach(System.out::println);
     }
 }
