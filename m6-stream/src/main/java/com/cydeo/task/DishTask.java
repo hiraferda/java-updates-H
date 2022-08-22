@@ -36,7 +36,7 @@ public class DishTask {
                 .sorted(comparing(Dish::getCalories))
                   //.map(dish->dish.getName())
                 .map(Dish::getName)
-                .sorted()
+                //.sorted()
                 .forEach(System.out::println);
 //ask Ozzy
 
